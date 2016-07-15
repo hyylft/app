@@ -1,0 +1,337 @@
+/*myIndex.css*/
+
+/*head部分*/
+.myPng {
+	position: relative;
+	width: 100%;
+	background: url(../images/headBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.myLoadnav {
+	margin: 0.5rem 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 3rem;
+}
+.myLoadnav span {
+	display: block;
+	color: #fff;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 3rem;
+}
+.mySetting {
+	position: absolute;
+	left: 1rem;
+	top: 0;
+	width: 3rem;
+	height: 3rem;
+	background: url(../images/myset.png) no-repeat center;
+	background-size: 90% 90%;
+}
+.myNews {
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	width: 3rem;
+	height: 3rem;
+	background: url(../images/mynews.png) no-repeat center;
+	background-size: 80% 80%;
+}
+.myNews i {
+	display: block;
+	width: 0.7rem;
+	height: 0.7rem;
+	background: #ffd5d8;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.myfcoued {
+	width: 100%;	
+	padding-top: 4rem;
+}
+.myPng img {
+	margin: 1rem auto 0;
+	display: block;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	border: 4px solid #ecd0a1;
+}
+.myPng em {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.2rem;
+	color: #fff;
+}
+.aboutMe {
+	width: 100%;
+	line-height: 3rem;
+	background: rgba(0, 0, 0, 0.2);
+}
+.aboutMe p {
+	line-height: 3rem;
+}
+.aboutMe {
+	overflow: hidden;
+}
+.aboutMe li {
+	height: 3rem;
+	line-height: 3rem;/*转换成在线时候把行高去除*/
+	padding: 0.5rem  0;
+	width: 33%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #cac0ac;
+	
+	vertical-align: middle;
+}
+.aboutMe li:last-child {
+	border: none 0;
+}
+.aboutMe li p, .aboutMe li span {
+	font-size: 1.4rem;
+	color: #fff;
+	vertical-align: middle;
+}
+.aboutMe li span {
+	display: none;;/*转换成在线时候把行高去除*/
+}
+.allOrder {
+	overflow: hidden;
+	padding: 0 1rem;
+	background: #fff;
+	border-bottom: 1px solid #d1d1d1;
+}
+.innerOrder {
+	height: 4rem;
+	line-height: 4rem;
+	float: left;
+	font-size: 1.6rem;
+	color: #333;
+}
+.checkOrder {
+	height: 4rem;
+	line-height: 4rem;
+	float: right;
+	font-size: 1.4rem;
+	color: #888;
+}
+.innerOrder i {
+	margin-right: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: url(../images/redbook.png) no-repeat;
+	background-size: 100% 100%;
+}
+.checkOrder i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/iconright.png) no-repeat;
+	background-size: 100% 100%;
+}
+.transactList {
+	padding: 1.5rem 1rem;
+	margin-bottom: 1rem;
+	background: #fff;
+	box-sizing: border-box;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+}
+.transactList li {
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	text-align: center;
+}
+.pendingPay i, .receiptGoods i, .toEvaluated i, .hasCompleted i {
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.pendingPay i {
+	background: url(../images/shoppingbook.png) no-repeat;
+	background-size: 100% 100%;
+}
+.receiptGoods i {
+	background: url(../images/shoppingcar.png) no-repeat;
+	background-size: 100% 100%;
+}
+.toEvaluated i {
+	background: url(../images/speaker.png) no-repeat;
+	background-size: 100% 100%;
+}
+.hasCompleted i {
+	background: url(../images/onlyend.png) no-repeat;
+	background-size: 100% 100%;
+}
+.transactList li p {
+	font-size: 1.4rem;
+	color: #777;
+}
+.mationCount {
+	background: #fff;
+	padding: 0 1rem;
+	margin-bottom: 8rem;
+}
+.myInformation {
+	width: 100%;	
+	overflow: hidden;
+	border-bottom: 1px solid #d1d1d1;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.mationCount li:last-child {
+	border: none 0;
+}
+.myInfor {
+	height: 5rem;
+	line-height: 5rem;
+	float: left;
+	font-size: 1.6rem;
+	color: #333;
+	vertical-align: middle;
+}
+.inforPng {
+	float: right;
+	margin: 1.7rem 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/iconright.png) no-repeat;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}
+.myInfor i {
+	margin-right: 1rem;
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+	vertical-align: middle;
+}
+.myCoupons i {
+	background: url(../images/shopping.png) no-repeat;
+	background-size: 100% 100%;
+}
+.myAddress i {
+	background: url(../images/shoppingposition.png) no-repeat;
+	background-size: 100% 100%;
+}
+.myCard i {
+	background: url(../images/card.png) no-repeat;
+	background-size: 100% 100%;
+}
+.myAppoint i {
+	background: url(../images/mytime.png) no-repeat;
+	background-size: 100% 100%;
+}
+.myService i {
+	background: url(../images/mytel.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/*底部*/
+.myFoot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 0.2rem 1rem;
+	width: 100%;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+	border-top: 1px solid #d1d1d1;
+	box-sizing: border-box;
+	background: #f8f8f8;
+}
+.myFoot div {
+	width: 20%;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+}
+.myFoot div {
+	text-align: center;
+	color: #666;
+	font-size: 1.4rem;
+}
+.shoppingCar {
+	margin: 0 20%;
+}
+.myFoot .myColor {
+	color: #e6071b;
+}
+.shoppingCar i, .myFirstpage i, .shoppingMe i {
+	width: 1.5rem;
+	height: 1.5rem;
+	display: inline-block;
+}
+
+/*首页图标切换*/
+.myFirstpage i {
+	background: url(../images/myhome.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.myFirstpage i.imgOn {
+	background: url(../images/upindex.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+/*购物车图标切换*/
+.shoppingCar i {
+	background: url(../images/shopfault.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.shoppingCar i.imgOn {
+	background: url(../images/basket.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+/*我的图标切换*/
+.shoppingMe i {
+	background: url(../images/malue.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.shoppingMe i.imgOn {
+	background: url(../images/feedback.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+/*呼叫客服 的弹出层*/
+.outPage {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.innerpage {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.innerpage button {
+	display: block;
+	margin: 0 5%;
+	width: 90%;
+	height: 4rem;
+	border: none 0;
+	background: #f9f9f9;
+	border-radius: 3px;
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	color: #007aff;
+}
